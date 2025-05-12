@@ -136,29 +136,3 @@ li:hover {
 .quiz-button1:hover {
   background-color: #ffffff; /* Mavi hover rengi */
 }
-
-@media (max-width: 768px) {
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.container {
-  width: 90%;
-  max-width: 768px;
-  margin: 0 auto;
-  padding: 16px;
-}
-
-  button, input {
-    width: 90%;
-    font-size: 16px;
-  }
-}
-img, video, table {
-  max-width: 100%;
-  height: auto;
-}
