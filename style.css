@@ -1,0 +1,138 @@
+body {
+  font-family: 'Sylfaen', serif;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+}
+
+#quiz-box {
+  background: linear-gradient(145deg, #1a0000, #330000);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+   box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); /* Daha yumuşak bir gölge */
+  border: 3px solid #800000;
+}
+
+h1 {
+  background: linear-gradient(145deg, #ff0000, #e20000);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  color: #e3ffdf; /* Yeşil */
+  font-size: 2em; /* Orta büyüklükte font boyutu */
+  text-align: center; /* Ortalanmış başlık */
+}
+
+h3 {
+  color: #4444ff; /* Mavi */
+  font-size: 1.5em; /* Daha küçük font boyutu */
+  text-align: center; /* Ortalanmış başlık */
+}
+
+
+  .logo-image {
+  display: block;
+  max-width: 1300px;
+  margin: -50px auto -20px auto;
+}
+
+
+.main-title, .subtitle {
+  display: block;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-top: -1em;
+  color: #ff8888;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  background-color: rgba(60, 0, 0, 0.85);
+  margin: 16px 0;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #990000;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background-color: rgba(90, 0, 0, 0.9);
+  transform: scale(1.02); /* Daha küçük bir büyüme efekti */
+}
+
+.pending {
+  background-color: #bf8800 !important;
+  color: #ffffff !important; /* Renk kontrastı artırıldı */
+}
+
+.confirmed-correct {
+  background-color: #228B22 !important; /* Daha doğal ve gözü yormayan bir yeşil */
+  color: #ffffff !important;
+}
+
+.confirmed-wrong {
+  background-color: #9b1c1c !important; /* Daha koyu kırmızı */
+  color: #ffffff !important;
+}
+
+/* SON KARARIM ve SONRAKİ SORU butonları */
+.quiz-button {
+  background-color: #ff4444; /* Kırmızı rengin yerine daha parlak bir kırmızı */
+  color: #fff;
+  font-size: 22px;
+  padding: 15px 40px;
+  margin: 25px auto 0 auto;
+  display: block;
+  border: 2px solid #cc0000;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4); /* Daha hafif bir gölge */
+  transition: all 0.3s ease-in-out; /* Daha yumuşak geçiş efektleri */
+}
+.quiz-button:hover {
+  background-color: #cc0000;
+  transform: scale(1.05);
+}
+
+
+.quiz-button1 {
+  background-color: #000000; /* Mavi tonlarıyla farklı bir görünüm */
+  color: #990000;
+  font-size: 22px;
+  padding: 15px 40px;
+  margin: 25px auto 0 auto;
+  display: block;
+  border: 2px solid #cc0000;
+  border-radius: 10px;
+  cursor: pointer;
+   box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4); /* Daha hafif bir gölge */
+  transition: all 0.3s ease-in-out; /* Daha yumuşak geçiş efektleri */
+}
+.quiz-button1:hover {
+  background-color: #ffffff; /* Mavi hover rengi */
+}

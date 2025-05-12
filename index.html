@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Uygulaması</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @font-face {
+      font-family: 'Sylfaen';
+      src: local('Sylfaen');
+    }
+  </style>
+</head>
+<body>
+  <div id="quiz-container">
+    <div id="start-screen">
+    <h1 class="title-group">
+  <img src="https://www.animatedimages.org/data/media/188/animated-dragon-image-0011.gif" alt="Podcastia Logo" class="logo-image">
+  <span class="main-title">PODCASTİA MACERALARI 1.0</span><br>
+  <span class="subtitle">BİLGİ YARIŞMASI</span>
+</h1>
+
+  
+      <button id="start-btn" class="quiz-button">Başlat</button>
+      <p id="total-question-count" style="text-align: center; margin-top: 10px; font-size: 18px;">Toplam Soru Sayısı: 50 (güncellenecek)</p>
+
+    </div>
+
+    <div id="quiz-box" style="display:none;">
+      <div id="question-count"></div>
+      <div id="timer" style="margin-top: 10px; font-size: 18px;"></div>
+      <h2 id="question">Soru burada gözükecek</h2>
+      <ul id="options"></ul>
+      <button id="final-answer-btn" class="quiz-button" style="display:none;">Son Kararım</button>
+      <button id="next-question-btn" class="quiz-button1" style="display:none;">Sonraki Soru</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
