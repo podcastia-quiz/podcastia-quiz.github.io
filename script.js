@@ -250,7 +250,7 @@ const allQuestions = [
     "question": "Canısı Ailesinden Sertaç’ın sokaklardaki namı nedir?",
     "options": ["Ustura", "Berber", "Katil", "Naturel"],
     "correctAnswer": "Ustura"
-  }
+  },
   {
     "question": "Tavşanlı lojmanlarında askerlik yapan, kahramanlardan ‘gece konforu ped’ isteyen erbaş kimdir?",
     "options": ["Midyat", "Seyfo", "Derbaş", "Gülroth"],
@@ -401,7 +401,7 @@ const allQuestions = [
     "options": ["Mario", "Romeo", "Merry", "Hideo"],
     "correctAnswer": "Mario"
   }
-]
+];
 
 
 // Kullanıcının tarayıcı belleğinden önceki soruları alma
