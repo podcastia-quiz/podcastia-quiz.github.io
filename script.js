@@ -401,8 +401,7 @@ const allQuestions = [
     "options": ["Mario", "Romeo", "Merry", "Hideo"],
     "correctAnswer": "Mario"
   }
-];
-
+]
 
 // Kullanıcının tarayıcı belleğinden önceki soruları alma
 let usedQuestions = JSON.parse(localStorage.getItem("usedQuestions")) || [];
