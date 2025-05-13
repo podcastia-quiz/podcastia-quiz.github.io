@@ -28,8 +28,8 @@ const allQuestions = [
   },
   {
     "question": "Hangisi Wolfgang’in diğer isimlerinden biri değildir?",
-    "options": ["Raul", "Percival", "Zarek", "Dorian"],
-    "correctAnswer": "Dorian"
+    "options": ["Raul", "Percival", "Zarek", "Frederick"],
+    "correctAnswer": "Frederick"
   },
   {
     "question": "Gülroth’un Antik Zümküfül Tapınağındaki görevi için önceden belirlenen payı nedir?",
@@ -42,7 +42,7 @@ const allQuestions = [
     "correctAnswer": "180"
   },
   {
-    "question": "Antik Zümküfül Tapınağı-Tavşanlı Kasabası arası yürüyerek kaç saat sürer?",
+    "question": "Antik Zümküfül Tapınağı-Tavşanlı Kasabası arası yürüyerek ortalama kaç saat sürer?",
     "options": ["2", "3", "4", "5"],
     "correctAnswer": "3"
   },
@@ -57,7 +57,7 @@ const allQuestions = [
     "correctAnswer": "Yusuf"
   },
   {
-    "question": "Kahramanlar Yusuf’un Hanında kaç numaralı odada kalmaktadır?",
+    "question": "Kahramanlar, Yusuf’un Hanında kaç numaralı odada kalmaktadır?",
     "options": ["3", "9", "6", "7"],
     "correctAnswer": "3"
   },
@@ -67,7 +67,7 @@ const allQuestions = [
     "correctAnswer": "Reyhan"
   },
   {
-    "question": "Beherit ile iletişim kurmak için yapılan şeytani ritüelde gereken temel bileşen nedir?",
+    "question": "Beherit ile iletişim kurmak için yapılan şeytani ritüelde gereken en temel bileşen nedir?",
     "options": ["Bakire Kanı", "Zümküfül", "Tavşan", "Marul"],
     "correctAnswer": "Bakire Kanı"
   },
@@ -78,7 +78,7 @@ const allQuestions = [
   },
   {
     "question": "Tavşanlı Kasabasının büyü dükkanı işletmecisinin adı nedir?",
-    "options": ["Wingardium leviosman", "Yusuf", "Serdar Dardark", "Balbaş"],
+    "options": ["Wingardium Leviosman", "Yusuf", "Serdar Dardark", "Balbaş"],
     "correctAnswer": "Wingardium leviosman"
   },
   {
@@ -103,8 +103,8 @@ const allQuestions = [
   },
   {
     "question": "Eciyek Sülüğünün çıkardığı sesler arasında aşağıdakilerden hangisi yoktur?",
-    "options": ["Viiiiiiğ", "Viğ Viğ", "Kisveeğ", "Yeğiyeğiyeği"],
-    "correctAnswer": "Yeğiyeğiyeği"
+    "options": ["Viiiiiiğ", "Viğ Viğ", "Kisveeğ", "Yeğii"],
+    "correctAnswer": "Yeğii"
   },
   {
     "question": "Eciyek Sülüğünün Katli Destanının kahramanı kimdir?",
@@ -117,7 +117,7 @@ const allQuestions = [
     "correctAnswer": "Drock-rha"
   },
   {
-    "question": "Cevizli Sucuk kimin çantasından çıkmıştır?",
+    "question": "Cevizli Sucuk ilk kimin çantasından çıkmıştır?",
     "options": ["Can Temiz", "Can Bonomo", "Reyhan", "İsmail Türküsev"],
     "correctAnswer": "İsmail Türküsev"
   },
@@ -152,7 +152,7 @@ const allQuestions = [
     "correctAnswer": "Belenus"
   },
   {
-    "question": "Amores Perros’a bağlı Paladin Organizasyonunun ismi nedir?",
+    "question": "Amores Perros’a bağlı Paladin Organizasyonu'nun ismi nedir?",
     "options": ["Pençe Birliği", "Güneş Birliği", "Kutsal Birlik", "Demir Bilek"],
     "correctAnswer": "Pençe Birliği"
   },
@@ -182,22 +182,22 @@ const allQuestions = [
     "correctAnswer": "150 altın"
   },
   {
-    "question": "Sevilen Şaraplarının varisi olarak tanıtılan Wolfgang, hangi ismi kullanmıştır?",
+    "question": "Sevilen Şaraplarının varisi olarak kendini tanıtan Wolfgang, hangi ismi kullanmıştır?",
     "options": ["Serdar Sevilen", "Sertaç Sevilen", "Aytaç Sevilen", "Sevtap Sevilen"],
     "correctAnswer": "Serdar Sevilen"
   },
   {
     "question": "Hangisi Wolfgang’in kimliğine büründüğü kişiliklerden birisi değildir?",
-    "options": ["Serdar Sevilen", "Ian ScCobottom", "Tuzluk", "Dorian"],
-    "correctAnswer": "Dorian"
+    "options": ["Serdar Sevilen", "Ian ScCobottom", "Tuzluk", "Zümküf"],
+    "correctAnswer": "Zümküf"
   },
   {
-    "question": "Hangisi dışarıda kalır?",
+    "question": "Bir bütün oluşturulduğunda hangisi dışarıda kalır?",
     "options": ["Nihan", "Sevil", "Şule", "Leman"],
     "correctAnswer": "Leman"
   },
   {
-    "question": "Fenriz’in Kertik Kampını bulmak için çağırdığı, ‘’abi’’ çekmesi üzerine büyük gerginlik yaratan kuş hangi cinstir?",
+    "question": "Fenriz’in Kertik Kampını bulmak için çağırdığı, ’abi’ çekmesi üzerine büyük gerginlik yaratan kuş hangi cinstir?",
     "options": ["İspinoz", "Martı", "Güvercin", "Serçe"],
     "correctAnswer": "İspinoz"
   },
@@ -227,13 +227,13 @@ const allQuestions = [
     "correctAnswer": "3"
   },
   {
-    "question": "Dandik İtişme sonrası hayatta kalan, kahramanların yanında ‘’hırt’’ olarak yer bulan haydutun ismi nedir?",
+    "question": "Dandik İtişme sonrası hayatta kalan, kahramanların yanında ’hırt’ olarak yer bulan haydutun ismi nedir?",
     "options": ["Adanır", "Yaganır", "Zaranır", "Kutanır"],
     "correctAnswer": "Adanır"
   },
   {
     "question": "Tavşanlı Belediye binasındaki en kilit isim kimdir?",
-    "options": ["Sekrete", "Çaycı", "Vali", "Seyis"],
+    "options": ["Sekreter", "Çaycı", "Vali", "Seyis"],
     "correctAnswer": "Çaycı"
   },
   {
@@ -247,11 +247,162 @@ const allQuestions = [
     "correctAnswer": "Göz"
   },
   {
-    "question": "Canısı ailesinden Sertaç’ın, sokaklardaki namı nedir?",
+    "question": "Canısı Ailesinden Sertaç’ın sokaklardaki namı nedir?",
     "options": ["Ustura", "Berber", "Katil", "Naturel"],
     "correctAnswer": "Ustura"
   }
+  {
+    "question": "Tavşanlı lojmanlarında askerlik yapan, kahramanlardan ‘gece konforu ped’ isteyen erbaş kimdir?",
+    "options": ["Midyat", "Seyfo", "Derbaş", "Gülroth"],
+    "correctAnswer": "Midyat"
+  },
+  {
+    "question": "Canısı Ailesinin liderinin adı nedir?",
+    "options": ["Karkızıl Canısı", "Karbeyaz Canısı", "Kankızıl Canısı", "Kanbeyaz Canısı"],
+    "correctAnswer": "Karkızıl Canısı"
+  },
+  {
+    "question": "Cevizli Sucuk hangi büyü okulu ile daha yakından ilişkilidir?",
+    "options": ["Conjuration", "Enchantment", "Necromancy", "Transmutation"],
+    "correctAnswer": "Necromancy"
+  },
+  {
+    "question": "Eski Kıtadan göç ederek Podcastia Kıtasına gelen ilk Canısı kafilesi kaç kişidir?",
+    "options": ["20-25", "30-35", "10-15", "45-50"],
+    "correctAnswer": "20-25"
+  },
+  {
+    "question": "Tavşanlı Kasabasını kimler kurmuştur?",
+    "options": ["Canısı Ailesi", "Amores Perros", "Odabaşı Ailesi", "Kertikler"],
+    "correctAnswer": "Canısı Ailesi"
+  },
+  {
+    "question": "1 kg Cevizli Sucuğun piyasası ortalama ne kadardır?",
+    "options": ["10.000 Altın", "1500 Altın", "5000 Altın", "7500 Altın"],
+    "correctAnswer": "10.000 Altın"
+  },
+  {
+    "question": "Hangi ünlümüz Podcastia Maceraları 1.0’da konuk oyuncu olarak yer almamıştır?",
+    "options": ["Ömer Harmankaya", "Öykü Karayel Bonomo", "Sarp Apak", "Melikşah Altuntaş"],
+    "correctAnswer": "Melikşah Altuntaş"
+  },
+  {
+    "question": "Fenriz, Sevilşulenihan’ın dükkanına ışınlanarak girmeye çalıştıktan sonra hangi esnaf zarar görmüştür?",
+    "options": ["Fırın", "Turşucu", "Nalbur", "Aktar"],
+    "correctAnswer": "Fırın"
+  },
+  {
+    "question": "Civan delikanlı, adaleli, şeytan lordu, viski seviyor. Bu kimdir?",
+    "options": ["Kuzgun Tatlıtuğ", "Paladin Azaptan", "Yetkin D. İkinciler", "Kolkanat Odabaşı"],
+    "correctAnswer": "Kuzgun Tatlıtuğ"
+  },
+  {
+    "question": "Wolfgang, Mage Hand büyüsünü yaparken hangi kelimeyi söyler?",
+    "options": ["Mellon", "Dızdık", "Arcana", "Haydi"],
+    "correctAnswer": "Mellon"
+  },
+  {
+    "question": "Kanye’nin anneanne formunda kullandığı isim nedir?",
+    "options": ["Mondel Mondü", "Dantel Dorel", "Marnel Madü", "Sorel Sondü"],
+    "correctAnswer": "Mondel Mondü"
+  },
+  {
+    "question": "Beherit’in temel uzmanlık alanları nelerdir?",
+    "options": ["Gurur ve Öfke", "Şehvet ve Aşk", "Açgözlülük ve Hırsızlık", "İntikam ve Savaş"],
+    "correctAnswer": "Gurur ve Öfke"
+  },
+  {
+    "question": "Sevilşulenihan’ın aile yadigarı, onu şeytanlardan koruyan eşyası nedir?",
+    "options": ["Yüzük", "Tarak", "Asa", "Taç"],
+    "correctAnswer": "Yüzük"
+  },
+  {
+    "question": "Paladinler tarafından yakalanan kahramanlar, hızlıca nezarete çevrilen Fularlı Otelinin bekleme salonunda sorgu için bekletilirken yanlarındaki diğer mahkumların işlediği suçlar arasında hangisi yoktur?",
+    "options": ["Necromancer", "Fuhuş", "Evrakta Sahtecilik", "Cevizli Sucuk Satıcılığı"],
+    "correctAnswer": "Cevizli Sucuk Satıcılığı"
+  },
+  {
+    "question": "Pençe Birliğinin sembolü olan Pençe’nin anlamı nedir?",
+    "options": ["Bağışlama", "İyileştirme", "İntikam", "Adalet"],
+    "correctAnswer": "Adalet"
+  },
+  {
+    "question": "Kahramanları bağışlayan, onlara tövbe etme imkanı sunan, Reyhan’ın bedenini almak için Antik Zümküfül Tapınağında ekibe öncülük eden Paladin kimdir?",
+    "options": ["Azaptan", "Derda", "Kolkanat", "Taşkaya Has Sertkaya"],
+    "correctAnswer": "Azaptan"
+  },
+  {
+    "question": "Paladin Azaptan, kahramanlar Antik Zümküfül Tapınağının derinlerini keşfederken yukarıda hangi iş ile meşgul olmuştur?",
+    "options": ["Undead Naga avı", "Zümküfül toplama", "Yeraltı tapınağında dua Ritüeli", "Kertik avı"],
+    "correctAnswer": "Undead Naga avı"
+  },
+  {
+    "question": "Zümküfül Deneyleri olan Construct yartıklar, bakır tüpler aracılığıyla enerjisini hangi kaynaktan alır?",
+    "options": ["Zümküfül", "Cevizli Sucuk", "Elmas", "Altın"],
+    "correctAnswer": "Cevizli Sucuk"
+  },
+  {
+    "question": "Tepesinde küre bulunan bir asanın etrafında sekiz adet yılanın dolandığı devasa heykel nerededir?",
+    "options": ["Kazıncıklar", "Tavşanlı", "Yeni İkinciler", "Pazıncıklar"],
+    "correctAnswer": "Kazıncıklar"
+  },
+  {
+    "question": "Paladin Azaptan hangi tanrıya hizmet etmektedir?",
+    "options": ["Iomedae", "Artemis", "Lathander", "Belanus"],
+    "correctAnswer": "Iomedae"
+  },
+  {
+    "question": "Sizi düşmanı olarak gören bir Construct ile savaşırken hangi hasar türüne başvurmamanız gerekir?",
+    "options": ["Lightning", "Thunder", "Fire", "Force"],
+    "correctAnswer": "Lightning"
+  },
+  {
+    "question": "Sizi düşmanı olarak gören bir Construct ile savaşırken hangi hasar türüne başvurmanız gerekir?",
+    "options": ["Lightning", "Thunder", "Fire", "Force"],
+    "correctAnswer": "Fire"
+  },
+  {
+    "question": "Fenriz, Reyhan’ı diriltmek için altını çıkışmayınca ‘anlaşmanın bağlayıcısı olarak’ neyinden vazgeçmiş ve Tanrılara kendisini kabul ettirmiştir?",
+    "options": ["Mohawk", "Dövme", "Piercing", "Burundan Kulağa Zincir Hızma"],
+    "correctAnswer": "Mohawk"
+  },
+  {
+    "question": "Hangisi Kazıncıklar Yüce Konseyi’nde yer almaz?",
+    "options": ["Kaleith Fielya", "Faruk Kalktakkıran", "Ümroth Ümransoy", "Kolkanat Odabaşı"],
+    "correctAnswer": "Kolkanat Odabaşı"
+  },
+  {
+    "question": "Kahramanların Antik Zümküfül Tapınağı’nın derin dehlizlerindeki laboratuvarda keşfettikleri, Zihinler ile alay eden kitabın ismi nedir?",
+    "options": ["Post Tenebras Lux", "Per Ignem Veritas", "Ante Ruinam Vox", "Sub Nocte Flamma"],
+    "correctAnswer": "Post Tenebras Lux"
+  },
+  {
+    "question": "Yeşil Ejderha’nın ismi nedir?",
+    "options": ["Crisenith", "Lee Selim", "Ringreemeralxoth", "Andareunarthex"],
+    "correctAnswer": "Crisenith"
+  },
+  {
+    "question": "Öykü Karayel’in canlandırdığı ‘Gölgelerin Elfi’ lakaplı karakterin ismi nedir?",
+    "options": ["Eludora", "Elidora", "Elanor", "Elanora"],
+    "correctAnswer": "Eludora"
+  },
+  {
+    "question": "Yetkin D. İkinciler’in sloganı nedir?",
+    "options": ["Zümküfülle Büyülü Yarınlara!", "Medeniyet için Zümküfül Diyeceğiz!", "Hepimiz İçin Zümküfül!", "Artık Zümküfül Devri!"],
+    "correctAnswer": "Zümküfülle Büyülü Yarınlara!"
+  },
+  {
+    "question": "Podcastia Kıtasının meşhur doğulu ozanı, Yeni İkinciler’de verdiği halk konseri esnasında tatsız olaylar yaşanan Meşhur Bardstar kimdir?",
+    "options": ["Huan Bueno", "Hueno Bono", "Honeo Bono", "Huen Boneo"],
+    "correctAnswer": "Huan Bueno"
+  },
+  {
+    "question": "Kahramanları bilge tavsiyeleri ile birçok beladan kurtarmaya çalışan, hayvan dostları sıçanın ismi nedir?",
+    "options": ["Mario", "Romeo", "Merry", "Hideo"],
+    "correctAnswer": "Mario"
+  }
 ]
+
 
 // Kullanıcının tarayıcı belleğinden önceki soruları alma
 let usedQuestions = JSON.parse(localStorage.getItem("usedQuestions")) || [];
