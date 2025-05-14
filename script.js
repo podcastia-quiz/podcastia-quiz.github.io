@@ -1,4 +1,11 @@
 // script.js
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 const allQuestions = [
   {
@@ -413,11 +420,12 @@ let elapsedTime = 0;
 
 function shuffleAndSelectQuestions() {
   const availableQuestions = allQuestions.filter(q => !usedQuestions.includes(q));
-  const shuffled = [...availableQuestions].sort(() => 0.5 - Math.random());
+  const shuffled = shuffleArray([...availableQuestions]);  // Daha sağlam karıştırma
   questions = shuffled.slice(0, 10);
   usedQuestions.push(...questions);
   localStorage.setItem("usedQuestions", JSON.stringify(usedQuestions));
 }
+
 
 function startQuiz() {
   document.getElementById("start-screen").style.display = "none";
@@ -557,4 +565,3 @@ document.getElementById("start-btn").addEventListener("click", () => {
   shuffleAndSelectQuestions();
   startQuiz();
 });
-
